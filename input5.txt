@@ -1,0 +1,13 @@
+# three tasks with three binary constraints and soft deadlines
+task, t1 4
+task, t2 4
+task, t3 4
+# three binary constraints
+constraint, t1 before t2
+constraint, t2 before t3
+constraint, t2 same-day t3
+# domain constraint
+domain, t2 9am
+domain, t3 end-in tue 12pm-wed 3pm
+# soft deadlines
+domain, t3 ends-by tue 3pm 20
