@@ -1,4 +1,5 @@
 # constraints_problem_using_AI
+Main function: fuzzyScheduler.py
 A fuzzy scheduling problem in this scenario is specified by ignoring orders and giving a number
 of tasks, each with a fixed duration in hours. Each task must start and finish on the same day,
 within working hours (9am to 5pm). In addition, there can be constraints both on single tasks
